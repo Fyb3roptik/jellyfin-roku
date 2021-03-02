@@ -1,5 +1,5 @@
 ##   Channel Details
-title=Jellyfin
+title=Nickflix
 major_version=1
 minor_version=3
 build_version=5
@@ -19,6 +19,6 @@ splash_min_time=1500
 ui_resolutions=fhd
 
 screensaver_private=1
-screensaver_title=Jellyfin
+screensaver_title=Nickflix
 
 supports_input_launch=1

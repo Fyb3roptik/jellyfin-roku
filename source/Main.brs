@@ -483,6 +483,7 @@ function LoginFlow(startOver = false as boolean)
   end if
   'Collect Jellyfin server and user information
   start_login:
+  set_setting("server", "http://192.168.1.83:8096")
   if get_setting("server") = invalid or ServerInfo() = invalid or startOver = true then
     print "Get server details"
     SendPerformanceBeacon("AppDialogInitiate")  ' Roku Performance monitoring - Dialog Starting
